@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container--Manhclock {
+    background-image: url("Manh1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.ManhClock {
+    width:fit-content;
+}
+
+.dateClock,
+.hoursClock {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #ffff;
+}
+
+.child--dateClock,
+.child--hoursCLock {
+    width: 23%;
+}
+
+.dateClock {
+    border-bottom: none;
+}
+
+.btnChangeBg,
+.btnLove {
+    padding: 10px;
+}
+
+.loveImg {
+    display: none;
+}
